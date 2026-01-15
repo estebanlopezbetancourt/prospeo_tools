@@ -1,0 +1,176 @@
+{
+  "company_funding": {
+    "funding_date": 90,
+    "last_funding": { "min": "100K", "max": "5M" },
+    "total_funding": { "min": "1M", "max": "10B+" },
+    "stage": [
+      "Pre seed",
+      "Seed",
+      "Series unknown",
+      "Series A",
+      "Series B",
+      "Series C",
+      "Equity crowdfunding",
+      "Product crowdfunding",
+      "Post IPO debt",
+      "Undisclosed",
+      "Post IPO secondary",
+      "Initial coin offering",
+      "Secondary market",
+      "Convertible note",
+      "Corporate round",
+      "Post IPO equity",
+      "Non equity assistance",
+      "Debt financing",
+      "Private equity",
+      "Angel",
+      "Grant",
+      "Series D",
+      "Series E-J"
+    ]
+  },
+  "company_headcount_range": [
+    "10000+",
+    "5001-10000",
+    "2001-5000",
+    "1001-2000",
+    "501-1000",
+    "201-500",
+    "101-200",
+    "51-100",
+    "21-50",
+    "11-20",
+    "1-10"
+  ],
+  "company_headcount_custom": {
+    "min": 1,
+    "max": 11
+  },
+  "company_keywords": {
+    "include": ["platform", "saas", "tech"],
+    "exclude": [],
+    "include_company_description": true,
+    "include_company_description_seo": true,
+    "include_all": true
+  },
+  "person_job_change": {
+    "timeframe_days": 90,
+    "only_promotion": false,
+    "only_new_company": true
+  },
+  "company_revenue": {
+    "include_unknown_revenue": true,
+    "min": "1M",
+    "max": "10B+"
+  },
+  "company_technology": {
+    "include": ["Salesforce", "HubSpot"],
+    "exclude": []
+  },
+  "person_duplicate_control": {
+    "hide_people_from_all_my_lists": true,
+    "hide_people_from_your_lists": ["696871a623b8940beb57bdf4"],
+    "hide_people_already_exported_before": true
+  },
+  "person_contact_details": {
+    "email": ["VERIFIED"],
+    "mobile": ["VERIFIED"],
+    "operator": "AND",
+    "_timestamp": 1768452422587,
+    "hide_people_with_details_already_revealed": true
+  },
+  "max_person_per_company": 5,
+  "person_year_of_experience": {
+    "min": 2,
+    "max": 4
+  },
+  "person_time_in_current_role": {
+    //months
+    "min": 15,
+    "max": 20
+  },
+  "person_time_in_current_company": {
+    "min": 3,
+    "max": 9
+  },
+  "company": {
+    "websites": {
+      "include": ["deloitte.com", "https://facebook.com/"]
+    },
+    "names": {
+      "include": ["Walmart", "Microsoft"]
+    }
+  },
+  "company_founded": {
+    "min": 2010,
+    "max": 2023,
+    "include_unknown_founded": false
+  },
+  "company_headcount_growth": {
+    "timeframe_month": 3,
+    "min": 10,
+    "max": 70,
+    "departments": ["Sales", "Marketing"]
+  },
+  "company_attributes": {
+    "demo": true,
+    "freetrial": true,
+    "downloadable": true,
+    "mobileapps": true,
+    "onlinereviews": true,
+    "pricing": true
+  },
+  "company_job_posting_hiring_for": ["marketing director", "head of growth"],
+  "company_job_posting_quantity": {
+    "min": 1,
+    "max": 3
+  },
+  "company_headcount_by_department": [
+    {
+      "department": "Sales Training",
+      "min": 1,
+      "max": 3
+    }
+  ],
+  "person_location_search": {
+    "include": ["New York, United States #US"],
+    "exclude": []
+  },
+  "company_location_search": {
+    "include": ["San Francisco, California #US"],
+    "exclude": ["New York, United States #US"]
+  },
+  "person_name": {
+    "include": ["John Smith"],
+    "exclude": []
+  },
+  "person_job_title": {
+    "include": ["chief marketing officer", "cmo", "marketing director"],
+    "exclude": [],
+    "match_only_exact_job_titles": true
+  },
+  "person_department": {
+    "include": ["C-Suite", "Technical Marketing"],
+    "exclude": []
+  },
+  "person_seniority": {
+    "include": [
+      "Senior",
+      "Manager",
+      "Director",
+      "Head",
+      "Vice President",
+      "Partner",
+      "Founder/Owner",
+      "C-Suite"
+    ],
+    "exclude": []
+  },
+  "company_email_provider": [
+    "Other",
+    "Mimecast",
+    "Proofpoint",
+    "Google",
+    "Microsoft"
+  ]
+}
