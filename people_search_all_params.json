@@ -85,7 +85,6 @@
     "max": 4
   },
   "person_time_in_current_role": {
-    //months
     "min": 15,
     "max": 20
   },
